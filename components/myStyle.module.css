@@ -1,0 +1,162 @@
+body {
+  font-family: sans-serif;
+}
+
+/* component styles */
+.navbar {
+  display: flex;
+  height: 70px;
+  background-color: black;
+  color: white;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.navbar > li,
+.navbar > li > button {
+  cursor: pointer;
+  list-style: none;
+}
+
+.navbar > li > a {
+  color: white;
+  text-decoration: none;
+}
+
+/* footer  */
+.footer {
+  width: 100%;
+  background-color: rgb(163, 163, 163);
+  height: 200px;
+  color: white;
+  position: relative;
+  top: 500px;
+}
+
+.footerTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 50px;
+}
+
+.footerAbout {
+  width: 30%;
+  margin: auto;
+  position: relative;
+  top: 30px;
+}
+
+.footerIcons {
+  color: black;
+  font-size: 2rem;
+  width: 30%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 20px;
+  box-sizing: border-box;
+  height: 50px;
+  position: relative;
+  top: 30px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.footerBanner {
+  width: 100%;
+  background-color: aliceblue;
+  height: 80px;
+  position: relative;
+  top: 200px;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footerNewsLetter {
+  position: relative;
+  top: 150px;
+  color: black;
+  margin: auto;
+  padding: 5px 5%;
+  border: 1px solid black;
+  width: 50%;
+  height: 150px;
+  box-shadow: 5px 5px 5px black;
+}
+.footerNewsLetter * {
+  margin: 15px;
+  margin-top: 15px;
+  box-shadow: 1px 1px black;
+}
+
+/* produts page  */
+.productContainer {
+  width: 90%;
+  margin: auto;
+  border: 1px solid black;
+  height: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding: 25px 5%;
+  box-sizing: border-box;
+}
+.productContainer > div {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  width: 100%;
+  padding: 5px 5%;
+  box-sizing: border-box;
+}
+
+.productContainer > div img {
+  width: 80%;
+  height: 200px;
+  margin-left: 25px;
+}
+
+.buyProductBtn {
+  background-color: #1fb7bf;
+  background: rgb(241, 15, 226);
+  background: linear-gradient(
+    293deg,
+    rgba(241, 15, 226, 0.7632145387451856) 0%,
+    rgba(29, 219, 253, 1) 51%,
+    rgb(16, 14, 12) 100%
+  );
+  color: white;
+  width: 80%;
+  margin: auto;
+  cursor: pointer;
+  border: none;
+  height: 30px;
+  border-radius: 5px;
+}
+.buyProductBtn:hover {
+  background: rgb(15, 241, 28);
+  background: linear-gradient(
+    293deg,
+    rgba(15, 241, 28, 0.7632145387451856) 0%,
+    rgba(249, 253, 29, 0.726799972918855) 51%,
+    rgba(252, 117, 69, 1) 100%
+  );
+
+  color: black;
+}
+
+.btnDiv {
+  width: 80%;
+  height: 50px;
+  /* background-color: gray; */
+  margin: auto;
+  display: flex;
+  position: relative;
+  bottom: 5px;
+}
+
+.cardText {
+  height: 180px;
+  /* background-color: gray; */
+}
